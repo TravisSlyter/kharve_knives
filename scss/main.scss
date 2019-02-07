@@ -1,0 +1,74 @@
+@import 'menu';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #333 url('../image/background.jpg') no-repeat center center / cover;
+    overflow: hidden;
+    color: $primary-color;
+    margin: 0;
+    line-height: 1.4;
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: 400;
+
+    &.text-primary {
+        font-size: 6rem
+    }
+
+    &.sm-heading {
+        margin-bottom: 2rem;
+        padding: .2rem 1rem;
+        font-size: 2rem;
+    }
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+main {
+    padding: 4rem;
+    //min-height: calc(100vh - 60px;)
+    margin-top: 12rem;
+
+    .icons {
+        margin-top: 1rem;
+
+        a {
+            padding: .2rem;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+
+    
+}
+
+
+
+
+
+
+
+ 
+
+

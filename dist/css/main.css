@@ -1,0 +1,45 @@
+.menu {
+  visibility: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  background: #333 url("../image/background.jpg") no-repeat center center/cover;
+  overflow: hidden;
+  color: #eeecec;
+  margin: 0;
+  line-height: 1.4; }
+
+h1, h2 {
+  margin: 0;
+  font-weight: 400; }
+  h1.text-primary, h2.text-primary {
+    font-size: 6rem; }
+  h1.sm-heading, h2.sm-heading {
+    margin-bottom: 2rem;
+    padding: .2rem 1rem;
+    font-size: 2rem; }
+
+a {
+  color: #eeecec;
+  text-decoration: none; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
+
+.text-secondary {
+  color: #ee4f06; }
+
+main {
+  padding: 4rem;
+  margin-top: 12rem; }
+  main .icons {
+    margin-top: 1rem; }
+    main .icons a {
+      padding: .2rem; }
+      main .icons a:hover {
+        color: #ee4f06; }
