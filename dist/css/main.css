@@ -1,5 +1,49 @@
+.menu-btn {
+  position: absolute;
+  z-index: 1;
+  right: 35px;
+  top: -135px;
+  cursor: pointer; }
+  .menu-btn .btn-line {
+    width: 35px;
+    height: 5px;
+    margin: 0 0 5px 0;
+    background-color: #eeecec; }
+
 .menu {
-  visibility: hidden; }
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(2, 2, 2, 0.5);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 200px;
+  /*
+    .closebtn {
+        position: absolute;
+        top: 10%;
+        right: 35%;
+        font-size: 72px;
+    }*/ }
+  .menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #eeecec;
+    transition: 0.3s;
+    display: block;
+    cursor: pointer;
+    text-align: center; }
+    .menu a:hover {
+      color: #ee4f06; }
+  .menu .closebtn {
+    font-size: 72px;
+    right: 25px;
+    top: 15px;
+    position: absolute; }
 
 * {
   box-sizing: border-box; }
@@ -37,9 +81,6 @@ header {
 main {
   padding: 4rem;
   margin-top: 12rem; }
-  main .icons {
-    margin-top: 1rem; }
-    main .icons a {
-      padding: .2rem; }
-      main .icons a:hover {
-        color: #ee4f06; }
+
+.txt-type {
+  border-right: 0.2rem solid #777; }

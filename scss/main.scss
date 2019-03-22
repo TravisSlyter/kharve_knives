@@ -10,7 +10,7 @@ body {
     overflow: hidden;
     color: $primary-color;
     margin: 0;
-    line-height: 1.4;
+    line-height: 1.4;    
 }
 
 h1, h2 {
@@ -46,22 +46,15 @@ header {
 main {
     padding: 4rem;
     //min-height: calc(100vh - 60px;)
-    margin-top: 12rem;
-
-    .icons {
-        margin-top: 1rem;
-
-        a {
-            padding: .2rem;
-
-            &:hover {
-                color: $secondary-color;
-            }
-        }
-    }
-
-    
+    margin-top: 12rem;  
 }
+
+.txt-type {
+    border-right: 0.2rem solid #777;
+}
+
+
+
 
 
 
