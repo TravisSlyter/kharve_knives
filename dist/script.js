@@ -63,7 +63,7 @@ function init() {
 	new TypeWriter(txtElement, words, wait);
 }
 
-// Menu
+// Menu App
 function openNav() {
 	document.getElementById("sideNav").style.width = "25%";
 	document.getElementById("menuBtn").style.visibility = "hidden";
@@ -73,6 +73,7 @@ function closeNav() {
 	document.getElementById("sideNav").style.width = "0";
 	document.getElementById("menuBtn").style.visibility = "visible";
 }
+
 
 
 

@@ -44,21 +44,45 @@
         }
     }
 
+    a:hover + .aboutSpan {
+        width: 75%;
+    }
+
+    a:hover + .workSpan {
+        width: 75%;
+    }
+
+    a:hover + .contactSpan {
+        width: 75%;
+    }
+
+    a:hover + .instaSpan {
+        width: 75%;
+    }
+
     .closebtn {
         font-size: 72px;
         right: 25px;
         top: 15px;
         position: absolute;
     }
-    
-    /*
-    .closebtn {
-        position: absolute;
-        top: 10%;
-        right: 35%;
-        font-size: 72px;
-    }*/
 }
-        
+
+.aboutSpan, .workSpan, .contactSpan, .instaSpan {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(2, 2, 2, .5);
+    overflow-x: hidden;
+    transition: width .5s;
+    padding-top: 400px;
+    text-align: center;
+    font-size: 72px;
+}
+
+
         
 

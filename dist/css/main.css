@@ -20,14 +20,7 @@
   background-color: rgba(2, 2, 2, 0.5);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 200px;
-  /*
-    .closebtn {
-        position: absolute;
-        top: 10%;
-        right: 35%;
-        font-size: 72px;
-    }*/ }
+  padding-top: 200px; }
   .menu a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -39,18 +32,39 @@
     text-align: center; }
     .menu a:hover {
       color: #ee4f06; }
+  .menu a:hover + .aboutSpan {
+    width: 75%; }
+  .menu a:hover + .workSpan {
+    width: 75%; }
+  .menu a:hover + .contactSpan {
+    width: 75%; }
+  .menu a:hover + .instaSpan {
+    width: 75%; }
   .menu .closebtn {
     font-size: 72px;
     right: 25px;
     top: 15px;
     position: absolute; }
 
+.aboutSpan, .workSpan, .contactSpan, .instaSpan {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(2, 2, 2, 0.5);
+  overflow-x: hidden;
+  transition: width .5s;
+  padding-top: 400px;
+  text-align: center;
+  font-size: 72px; }
+
 * {
   box-sizing: border-box; }
 
 body {
   height: 100vh;
-  background: #333 url("../image/background.jpg") no-repeat center center/cover;
   overflow: hidden;
   color: #eeecec;
   margin: 0;
@@ -84,3 +98,9 @@ main {
 
 .txt-type {
   border-right: 0.2rem solid #777; }
+
+.bgIndex {
+  background: #333 url("../image/background.jpg") no-repeat center center/cover; }
+
+.bgAbout {
+  background: #333 url("../image/bgabout.jpg"); }
