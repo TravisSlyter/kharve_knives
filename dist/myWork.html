@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body class='bg-img'>
+<body class='bodyGallery'>
     <div class="overlay"></div>
     <header>
         <div id="menuBtn" class="menu-btn" onclick="openNav()">
@@ -16,7 +16,11 @@
             <div class="btn-line"></div>
             <div class="btn-line"></div>
         </div>
-
+        <!--
+        <div class="logo">
+            <h1 class="text-primary">Kharve <span class="text-secondary"> Knives</span></h1>
+        </div>-->
+        
         <div id="sideNav" class="menu">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="index.html">Home</a>
@@ -29,13 +33,19 @@
         </div>
     </header>
 
-    <main class="home">
-        <h1 class="text-primary">My <span class="text-secondary"> Work</span></h1>
-        <h2 class="sm-heading">
-            <span class="txt-type" data-wait="3000" data-words='["Custom handmade knives by Travis Slyter"]'></span>
-        </h2>
-        
+    <main class="mainGallery">
+            <div class="logo">
+                    <h1 class="text-primary">Kharve <span class="text-secondary"> Knives</span></h1>
+                </div>
+        <div class="galContainer">
+            <img src="image/rockwell.jpg">
+            <img src="image/vargr1.jpg">
+            <img src="image/vargr5.jpg">
+            <img src="image/vargr2.jpg" style="width: 350px; height: 500px;">
+            <img src="image/vargr4.jpg" style="width: 350px; height: 500px;">
+        </div>
     </main>
+
     <script src="script.js"></script>
 </body>
 </html>

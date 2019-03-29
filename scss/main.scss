@@ -5,11 +5,11 @@
 }
 
 body {
-    height: 100vh;
-    overflow: hidden;
-    color: $primary-color;
-    margin: 0;
-    line-height: 1.4;    
+    //height: 100vh;
+    //overflow: hidden;
+    //color: $primary-color;
+    //margin: 0;
+    //line-height: 1.4;    
 }
 
 h1, h2 {
@@ -42,25 +42,46 @@ header {
     color: $secondary-color;
 }
 
-main {
-    padding: 4rem;
-    //min-height: calc(100vh - 60px;)
-    margin-top: 12rem;  
-}
+// main {
+//     padding: 4rem;
+//     //min-height: calc(100vh - 60px;)
+//     margin-top: 12rem;  
+// }
 
 .txt-type {
     border-right: 0.2rem solid #777;
 }
 
 //Index Styling
-.bgIndex {
+.bodyIndex {
     background: #333 url('../image/background.jpg') no-repeat center center / cover;
-
+    height: 100vh;
+    overflow: hidden;
+    color: $primary-color;
+    margin: 0;
+    line-height: 1.4;    
 }
+
+.mainIndex {
+    padding: 4rem;
+    margin-top: 12rem;
+}
+
+
 
 // about styling
 .bgAbout {
     background: #333 url('../image/bgabout.jpg');
+    height: 100vh;
+    overflow: hidden;
+    color: $primary-color;
+    margin: 0;
+    line-height: 1.4;    
+}
+
+.mainAbout {
+    padding: 4rem;
+    margin-top: 12rem;
 }
 
 .bioContainer {
@@ -81,6 +102,70 @@ main {
     font-size: 2rem;
     margin-left: 110px;
 }
+
+// gallery styling
+.bodyGallery {
+    background: #333;
+    height: 100vh;
+     //overflow: hidden;
+    color: $primary-color;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.logo {
+    margin-left: 3rem;
+    margin-top: -10rem;
+    //position: relative;
+}
+
+.bodyGallery::-webkit-scrollbar { //hide scrollbar
+    width: 0 !important;
+}
+
+.mainGallery {
+    padding: 2rem;
+    margin-top: 12rem;
+}
+
+ .galContainer {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+
+
+ img {
+     width: 500px;
+     height: 350px;
+     margin: 20px;
+     transition: all .5s;
+     box-shadow: 10px 10px 5px rgba(27, 25, 25, 0.5);
+
+
+     &:hover {
+         transform: scale(1.2);
+     }
+ }
+
+ // Contact Styling
+ .bodyContact {
+    background-color: #333;
+    height: 100vh;
+    overflow: hidden;
+    color: $primary-color;
+    margin: 0;
+    line-height: 1.4;    
+}
+
+.mainContact {
+    padding: 4rem;
+    margin-top: 12rem;
+    transform: skewY(-9deg);
+}
+
+
 
 
 
