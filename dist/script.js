@@ -1,3 +1,4 @@
+(function(){
 const TypeWriter = function(txtElement, words, wait = 3000) {
 	this.txtElement = txtElement;
 	this.words = words;
@@ -74,6 +75,6 @@ function closeNav() {
 	document.getElementById("menuBtn").style.visibility = "visible";
 }
 
-
+})();
 
 
